@@ -48,7 +48,7 @@ The UMAPS represented the entire dataset as a cluster of cell types made up of t
 `;
 
 const CONCLUSION = ` 
-From the analysis of the dataset, Endothelial 2, VSMC-1, and the Immune cell types are more likely to play a huge role in the diseased state of the temporal artery.
+From the analysis of the dataset, the Immune and Endothelial 2 cell types are more likely to play a huge role in the diseased state of the temporal artery.
 Understanding the visualized results will help in utilizing scRNA-seq analysis in many real-world medical practices including:
 
 `;
