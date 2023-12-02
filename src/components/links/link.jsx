@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./index.css";
 
+// The code below contains the functionality of all links in the webpage
 export function InlineLink({ to, children }) {
   return (
     <a href={to} className="link">

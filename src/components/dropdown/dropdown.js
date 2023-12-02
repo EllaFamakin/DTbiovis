@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./index.css";
 
+// The code below contains a constant map that contains the images in the dropdown in the webpage
 const options = [
   { value: "Immune", image: "./cell_0.png" },
   { value: "VSMC1", image: "/cell_1.png" },
@@ -14,6 +15,7 @@ const options = [
   { value: "Fibroblast 2", image: "/cell_9.png" },
 ];
 
+// The code below contains the functionality of the drop-down box
 function CellDropdown() {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(null);

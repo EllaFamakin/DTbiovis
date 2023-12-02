@@ -130,6 +130,7 @@ export default function Home() {
           />
         </div>
 
+{/* code for section 3- Visual Insights */}
         <div>
           <h2 id="section-3"> Visual Insights</h2>
           <p>
@@ -161,6 +162,7 @@ export default function Home() {
           </div>
         </div>
 
+{/* code for section 4- Conclusion */}
         <div>
           <h2 id="section-4">Conclusion</h2>
           <p>{CONCLUSION}</p>
@@ -177,11 +179,12 @@ export default function Home() {
           </div>
         </div>
 
+{/* code for section 5- More */}
         <div>
           <h2 id="section-5">More</h2>
           <p>
             To view the code utilized to obtain the visual insights,{" "}
-            <InlineLink to="./cell_cluster.png">click here</InlineLink>
+            <InlineLink to="https://github.com/EllaFamakin/SEURAT-Data-Process.git">click here</InlineLink>
           </p>
         </div>
       </main>

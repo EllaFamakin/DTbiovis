@@ -1,7 +1,7 @@
 # Getting Started with DTBIOVIS
 
-This is a Node.js and React.js project. To get started you will need to have both Node and React installed on your computer.
-Follow the instructions below:
+This is a Node.js and React.js sponsored project. To get started you need to have both Node and React installed on your computer.
+To do this, Follow the instructions below:
 
 - Install [Node.js](https://nodejs.org/en)
 - Once you have Node installed, make sure to clone this repository to your computer by running the following command: `git clone https://github.com/EllaFamakin/DTbiovis.git`
