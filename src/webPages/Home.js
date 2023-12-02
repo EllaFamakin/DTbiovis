@@ -4,8 +4,8 @@ import CellDropdown from "../components/dropdown/dropdown";
 
 // The constant values below represent the webpage's textual content.
 const INTRO_T = `
-A vascular disease that typically affects the circulatory system and is characterised by 
-abnormalities in the blood vessels – arteries, capillaries and veins. It is characterized by inflammation of the large and 
+A vascular disease typically affects the circulatory system and is characterised by 
+abnormalities in the blood vessels – arteries, capillaries and veins. Temporal Arteritis is a vascular disease caused by inflammation of the large and 
 medium-sized arteries that supply blood to the head, predominantly the temporal arteries
 located on the sides of the head. It is most common in patients between ages 60-70.
 It is also known as giant cell arteritis (GCA).
@@ -36,19 +36,19 @@ To effectively streamline the data for further analysis, statistical outliers we
 const PROCESS_TOOLS = `
 was used to observe the genes in both disease and control cells. UMAPS (Uniform Manifold Approximation and Projection)
 is a dimensionality reduction technique commonly used in single-cell RNA sequencing (scRNA-seq) analysis and genomics. It compresses 
-datasets in a form that allows easy represention in 2D latent space. This includes complex relationships within the dataset.
+datasets in a form that allows easy represention in 2D latent space. This also applies to the complex relationships within the dataset.
 `;
 
 const CELL_STATUS = `After further processing, the UMAPS was able to separate the cluster of cells and genes in the dataset
-into individual cell types with their genes. The individual cell types shows the diseased (neg) and healthy (pos) genes overlapped to 
+into individual cell types with their genes. The individual cell types shows the diseased (pos) and healthy (neg) genes overlapped to 
 showcase which cell type has a higher likelihood of influencing the diseased state of the temporal artery.`;
 
 const CLUSTERS = `
-The UMAPS presented the entire dataset as a cluster of cell types with their genes. 
+The UMAPS represented the entire dataset as a cluster of cell types made up of their genes. 
 `;
 
 const CONCLUSION = ` 
-From the analysis of the dataset, the Immune, VSMC-1 and Fibroplast-1 cell types are more likely to play a huge role in the diseased state of the temporal artery.
+From the analysis of the dataset, Endothelial 2, VSMC-1, and the Immune cell types are more likely to play a huge role in the diseased state of the temporal artery.
 Understanding the visualized results will help in utilizing scRNA-seq analysis in many real-world medical practices including:
 
 `;
@@ -116,7 +116,7 @@ export default function Home() {
               <li>Values greater than the 99.7th percentile.</li>
               <li>Gene and read counts. </li>
               <li>
-                Values that have a 0.2% or 5% increase of{" "}
+                Values that had greater than 0.2% or 5% of{" "}
                 <InlineLink to="https://www.genome.gov/genetics-glossary/Mitochondrial-DNA#:~:text=Mitochondrial%20DNA%20is%20the%20circular,mitochondrial%20DNA%20%E2%80%94%20from%20their%20mother.">
                   mtDNA
                 </InlineLink>
@@ -149,7 +149,7 @@ export default function Home() {
           <h3>Disease-Control Status of Cells</h3>
           <p>
             This UMAP graph represents the cluster of cell types, highlighting
-            only their diseased (neg) and healthy (pos) genes for the entire
+            only their diseased (pos) and healthy (neg) genes for the entire
             dataset.{" "}
           </p>
           <img
@@ -169,7 +169,7 @@ export default function Home() {
           <div>
             <ul>
               <li>
-                Understanding complex biological processes at the single-cell
+                Understanding the complex biological processes of Temporal Arteritis at single-cell
                 level.
               </li>
               <li>Identifying potential therapeutic targets.</li>
